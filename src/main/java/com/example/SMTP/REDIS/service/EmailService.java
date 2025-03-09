@@ -43,7 +43,7 @@ public class EmailService {
 
         StringBuilder stringBuilder = new StringBuilder();
         stringBuilder.append("<div>");
-        stringBuilder.append("인증코드를 확인해주세요.<br><strong style=\"font-size: 30px;\">");
+        stringBuilder.append("인증코k드를 확인해주세요.<br><strong style=\"font-size: 30px;\">");
         stringBuilder.append(emailCode);
         stringBuilder.append("</strong><br>인증코드는 3분간 유지됩니다.</div>");
 
